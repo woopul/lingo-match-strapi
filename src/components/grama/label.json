@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_grama_labels",
+  "info": {
+    "displayName": "Label"
+  },
+  "options": {},
+  "attributes": {
+    "gramatics": {
+      "type": "string"
+    }
+  }
+}

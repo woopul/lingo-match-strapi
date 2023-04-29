@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_label_gramas",
+  "info": {
+    "displayName": "grama"
+  },
+  "options": {},
+  "attributes": {
+    "labelName": {
+      "type": "string"
+    },
+    "labelIcon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
