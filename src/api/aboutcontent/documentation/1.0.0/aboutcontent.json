@@ -1,5 +1,5 @@
 {
-  "/platforms": {
+  "/aboutcontents": {
     "get": {
       "responses": {
         "200": {
@@ -7,7 +7,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PlatformListResponse"
+                "$ref": "#/components/schemas/AboutcontentListResponse"
               }
             }
           }
@@ -64,7 +64,7 @@
         }
       },
       "tags": [
-        "Platform"
+        "Aboutcontent"
       ],
       "parameters": [
         {
@@ -169,7 +169,7 @@
           }
         }
       ],
-      "operationId": "get/platforms"
+      "operationId": "get/aboutcontents"
     },
     "post": {
       "responses": {
@@ -178,7 +178,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PlatformResponse"
+                "$ref": "#/components/schemas/AboutcontentResponse"
               }
             }
           }
@@ -235,23 +235,23 @@
         }
       },
       "tags": [
-        "Platform"
+        "Aboutcontent"
       ],
       "parameters": [],
-      "operationId": "post/platforms",
+      "operationId": "post/aboutcontents",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/PlatformRequest"
+              "$ref": "#/components/schemas/AboutcontentRequest"
             }
           }
         }
       }
     }
   },
-  "/platforms/{id}": {
+  "/aboutcontents/{id}": {
     "get": {
       "responses": {
         "200": {
@@ -259,7 +259,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PlatformResponse"
+                "$ref": "#/components/schemas/AboutcontentResponse"
               }
             }
           }
@@ -316,7 +316,7 @@
         }
       },
       "tags": [
-        "Platform"
+        "Aboutcontent"
       ],
       "parameters": [
         {
@@ -330,7 +330,7 @@
           }
         }
       ],
-      "operationId": "get/platforms/{id}"
+      "operationId": "get/aboutcontents/{id}"
     },
     "put": {
       "responses": {
@@ -339,7 +339,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PlatformResponse"
+                "$ref": "#/components/schemas/AboutcontentResponse"
               }
             }
           }
@@ -396,7 +396,7 @@
         }
       },
       "tags": [
-        "Platform"
+        "Aboutcontent"
       ],
       "parameters": [
         {
@@ -410,13 +410,13 @@
           }
         }
       ],
-      "operationId": "put/platforms/{id}",
+      "operationId": "put/aboutcontents/{id}",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/PlatformRequest"
+              "$ref": "#/components/schemas/AboutcontentRequest"
             }
           }
         }
@@ -487,7 +487,7 @@
         }
       },
       "tags": [
-        "Platform"
+        "Aboutcontent"
       ],
       "parameters": [
         {
@@ -501,10 +501,10 @@
           }
         }
       ],
-      "operationId": "delete/platforms/{id}"
+      "operationId": "delete/aboutcontents/{id}"
     }
   },
-  "/platforms/{id}/localizations": {
+  "/aboutcontents/{id}/localizations": {
     "post": {
       "responses": {
         "200": {
@@ -512,7 +512,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PlatformLocalizationResponse"
+                "$ref": "#/components/schemas/AboutcontentLocalizationResponse"
               }
             }
           }
@@ -569,7 +569,7 @@
         }
       },
       "tags": [
-        "Platform"
+        "Aboutcontent"
       ],
       "parameters": [
         {
@@ -583,13 +583,13 @@
           }
         }
       ],
-      "operationId": "post/platforms/{id}/localizations",
+      "operationId": "post/aboutcontents/{id}/localizations",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/PlatformLocalizationRequest"
+              "$ref": "#/components/schemas/AboutcontentLocalizationRequest"
             }
           }
         }
