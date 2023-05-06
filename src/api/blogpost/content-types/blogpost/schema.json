@@ -4,7 +4,7 @@
   "info": {
     "singularName": "blogpost",
     "pluralName": "blogposts",
-    "displayName": "blogpost",
+    "displayName": "Blog",
     "description": ""
   },
   "options": {
@@ -48,17 +48,6 @@
         }
       }
     },
-    "Seo": {
-      "displayName": "Seo",
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "shared.seo"
-    },
     "slug": {
       "pluginOptions": {
         "i18n": {
@@ -67,6 +56,16 @@
       },
       "type": "uid",
       "targetField": "title"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
     }
   }
 }

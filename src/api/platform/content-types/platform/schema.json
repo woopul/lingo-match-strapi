@@ -87,7 +87,16 @@
       },
       "type": "decimal"
     },
-    "Seo": {
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "targetField": "Name"
+    },
+    "seo": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -97,14 +106,11 @@
       },
       "component": "shared.seo"
     },
-    "slug": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "uid",
-      "targetField": "Name"
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "inversedBy": "platforms"
     }
   }
 }
