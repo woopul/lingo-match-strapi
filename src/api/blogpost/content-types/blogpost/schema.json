@@ -32,14 +32,6 @@
         }
       }
     },
-    "slug": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "splash": {
       "type": "media",
       "multiple": true,
@@ -55,6 +47,26 @@
           "localized": true
         }
       }
+    },
+    "Seo": {
+      "displayName": "Seo",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }

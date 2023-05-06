@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-04-29T20:14:23.049Z"
+    "x-generation-date": "2023-05-06T14:08:16.835Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -579,9 +579,6 @@
           "content": {
             "type": "string"
           },
-          "slug": {
-            "type": "string"
-          },
           "splash": {
             "type": "array",
             "items": {
@@ -595,6 +592,12 @@
               ],
               "example": "string or id"
             }
+          },
+          "Seo": {
+            "$ref": "#/components/schemas/SharedSeoComponent"
+          },
+          "slug": {
+            "type": "string"
           },
           "locale": {
             "type": "string"
@@ -616,9 +619,6 @@
               "content": {
                 "type": "string"
               },
-              "slug": {
-                "type": "string"
-              },
               "splash": {
                 "type": "array",
                 "items": {
@@ -632,6 +632,12 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "Seo": {
+                "$ref": "#/components/schemas/SharedSeoComponent"
+              },
+              "slug": {
+                "type": "string"
               },
               "locale": {
                 "type": "string"
@@ -761,9 +767,6 @@
             "type": "string"
           },
           "content": {
-            "type": "string"
-          },
-          "slug": {
             "type": "string"
           },
           "splash": {
@@ -1390,6 +1393,12 @@
               }
             }
           },
+          "Seo": {
+            "$ref": "#/components/schemas/SharedSeoComponent"
+          },
+          "slug": {
+            "type": "string"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -1471,6 +1480,26 @@
           },
           "meta": {
             "type": "object"
+          }
+        }
+      },
+      "SharedSeoComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "metaTitle": {
+            "type": "string"
+          },
+          "metaDescription": {
+            "type": "string"
+          },
+          "keywords": {
+            "type": "string"
+          },
+          "preventIndexing": {
+            "type": "boolean"
           }
         }
       },
@@ -2313,6 +2342,29 @@
                           "type": "number",
                           "format": "float"
                         },
+                        "Seo": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "number"
+                            },
+                            "metaTitle": {
+                              "type": "string"
+                            },
+                            "metaDescription": {
+                              "type": "string"
+                            },
+                            "keywords": {
+                              "type": "string"
+                            },
+                            "preventIndexing": {
+                              "type": "boolean"
+                            }
+                          }
+                        },
+                        "slug": {
+                          "type": "string"
+                        },
                         "createdAt": {
                           "type": "string",
                           "format": "date-time"
@@ -2506,6 +2558,12 @@
             "type": "number",
             "format": "float"
           },
+          "Seo": {
+            "$ref": "#/components/schemas/SharedSeoComponent"
+          },
+          "slug": {
+            "type": "string"
+          },
           "locale": {
             "type": "string"
           }
@@ -2573,6 +2631,12 @@
               "rating": {
                 "type": "number",
                 "format": "float"
+              },
+              "Seo": {
+                "$ref": "#/components/schemas/SharedSeoComponent"
+              },
+              "slug": {
+                "type": "string"
               },
               "locale": {
                 "type": "string"
@@ -3405,6 +3469,29 @@
                                         "type": "number",
                                         "format": "float"
                                       },
+                                      "Seo": {
+                                        "type": "object",
+                                        "properties": {
+                                          "id": {
+                                            "type": "number"
+                                          },
+                                          "metaTitle": {
+                                            "type": "string"
+                                          },
+                                          "metaDescription": {
+                                            "type": "string"
+                                          },
+                                          "keywords": {
+                                            "type": "string"
+                                          },
+                                          "preventIndexing": {
+                                            "type": "boolean"
+                                          }
+                                        }
+                                      },
+                                      "slug": {
+                                        "type": "string"
+                                      },
                                       "createdAt": {
                                         "type": "string",
                                         "format": "date-time"
@@ -3681,6 +3768,12 @@
           "rating": {
             "type": "number",
             "format": "float"
+          },
+          "Seo": {
+            "$ref": "#/components/schemas/SharedSeoComponent"
+          },
+          "slug": {
+            "type": "string"
           },
           "createdAt": {
             "type": "string",
