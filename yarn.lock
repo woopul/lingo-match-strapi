@@ -5105,7 +5105,7 @@ formidable@^1.1.1:
   resolved "https://registry.npmjs.org/formidable/-/formidable-1.2.6.tgz"
   integrity sha512-KcpbcpuLNOwrEjnbpMC0gS+X8ciDoZE1kkqzat4a8vrprf+s9pKNQ/QIwWfbfs4ltgmFl3MD177SNTkve3BwGQ==
 
-formik@2.2.9, formik@^2.2.6, formik@^2.2.9:
+formik@2.2.9, formik@^2.2.6:
   version "2.2.9"
   resolved "https://registry.npmjs.org/formik/-/formik-2.2.9.tgz"
   integrity sha512-LQLcISMmf1r5at4/gyJigGn0gOwFbeEAlji+N9InZF6LIMXnFNkO42sCI8Jt84YZggpD4cPWObAZaxpEFtSzNA==
@@ -5171,7 +5171,7 @@ fs-extra@10.0.1:
     jsonfile "^6.0.1"
     universalify "^2.0.0"
 
-fs-extra@^10.0.0, fs-extra@^10.1.0:
+fs-extra@^10.0.0:
   version "10.1.0"
   resolved "https://registry.npmjs.org/fs-extra/-/fs-extra-10.1.0.tgz"
   integrity sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ==
@@ -9333,15 +9333,6 @@ std-env@^3.0.1:
   version "3.3.2"
   resolved "https://registry.npmjs.org/std-env/-/std-env-3.3.2.tgz"
   integrity sha512-uUZI65yrV2Qva5gqE0+A7uVAvO40iPo6jGhs7s8keRfHCmtg+uB2X6EiLGCI9IgL1J17xGhvoOqSz79lzICPTA==
-
-strapi-plugin-custom-links@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-custom-links/-/strapi-plugin-custom-links-0.2.1.tgz#b812ad2ef185b4687014a6fa800bf826b9fb91eb"
-  integrity sha512-uxDjo3NmqdsoUQOUXzOUkDiBbAFNZfnWvB1byf8oyhJp6vCGO2Xu79ycsd4sZjGypuqKOShpq9/9ZB+KCw9Ugg==
-  dependencies:
-    formik "^2.2.9"
-    fs-extra "^10.1.0"
-    lodash "^4.17.21"
 
 strapi-plugin-entity-relationship-chart@^4.1.0:
   version "4.1.0"
