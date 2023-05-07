@@ -12,7 +12,6 @@
     },
     "path": {
       "type": "string",
-      "regex": "/^(\\/[^\\/]+){0,2}\\/?$/gm",
       "required": true,
       "default": "/"
     }
