@@ -1,5 +1,4 @@
 module.exports = ({ env }) => ({
-  // ...
   upload: {
     config: {
       provider: "cloudinary",
@@ -17,5 +16,9 @@ module.exports = ({ env }) => ({
   seo: {
     enabled: true,
   },
-  // ...
+  "strapi-plugin-populate-deep": {
+    config: {
+      defaultDepth: 3, // Default is 5
+    },
+  },
 });
