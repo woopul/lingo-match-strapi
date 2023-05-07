@@ -21,8 +21,6 @@
     "cross-env": "^7.0.3",
     "pg": "^8.7.0",
     "pg-connection-string": "^2.5.0",
-    "strapi-plugin-entity-relationship-chart": "^4.1.0",
-    "strapi-plugin-multi-select": "^1.1.0",
     "strapi-plugin-populate-deep": "^2.0.0"
   },
   "author": {
