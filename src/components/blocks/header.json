@@ -16,6 +16,14 @@
         "videos",
         "audios"
       ]
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    },
+    "logoDescription": {
+      "type": "string"
     }
   }
 }

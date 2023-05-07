@@ -4,7 +4,8 @@
   "info": {
     "singularName": "layout",
     "pluralName": "layouts",
-    "displayName": "Layout"
+    "displayName": "Layout",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,6 +25,16 @@
         }
       },
       "component": "shared.seo"
+    },
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "blocks.header"
     }
   }
 }
