@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-05-08T12:45:13.995Z"
+    "x-generation-date": "2023-05-09T21:28:04.030Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1332,11 +1332,11 @@
         "properties": {
           "data": {
             "required": [
-              "Name"
+              "name"
             ],
             "type": "object",
             "properties": {
-              "Name": {
+              "name": {
                 "type": "string"
               },
               "platforms": {
@@ -1406,10 +1406,10 @@
       "Category": {
         "type": "object",
         "required": [
-          "Name"
+          "name"
         ],
         "properties": {
-          "Name": {
+          "name": {
             "type": "string"
           },
           "platforms": {
@@ -1426,10 +1426,7 @@
                     "attributes": {
                       "type": "object",
                       "properties": {
-                        "Name": {
-                          "type": "string"
-                        },
-                        "Description": {
+                        "description": {
                           "type": "string"
                         },
                         "categories": {
@@ -1446,7 +1443,7 @@
                                   "attributes": {
                                     "type": "object",
                                     "properties": {
-                                      "Name": {
+                                      "name": {
                                         "type": "string"
                                       },
                                       "platforms": {
@@ -3159,15 +3156,11 @@
       },
       "PlatformLocalizationRequest": {
         "required": [
-          "Name",
           "locale"
         ],
         "type": "object",
         "properties": {
-          "Name": {
-            "type": "string"
-          },
-          "Description": {
+          "description": {
             "type": "string"
           },
           "categories": {
@@ -3247,15 +3240,9 @@
         ],
         "properties": {
           "data": {
-            "required": [
-              "Name"
-            ],
             "type": "object",
             "properties": {
-              "Name": {
-                "type": "string"
-              },
-              "Description": {
+              "description": {
                 "type": "string"
               },
               "categories": {
@@ -3446,14 +3433,8 @@
       },
       "Platform": {
         "type": "object",
-        "required": [
-          "Name"
-        ],
         "properties": {
-          "Name": {
-            "type": "string"
-          },
-          "Description": {
+          "description": {
             "type": "string"
           },
           "categories": {
@@ -3470,7 +3451,7 @@
                     "attributes": {
                       "type": "object",
                       "properties": {
-                        "Name": {
+                        "name": {
                           "type": "string"
                         },
                         "platforms": {
@@ -3487,10 +3468,7 @@
                                   "attributes": {
                                     "type": "object",
                                     "properties": {
-                                      "Name": {
-                                        "type": "string"
-                                      },
-                                      "Description": {
+                                      "description": {
                                         "type": "string"
                                       },
                                       "categories": {
@@ -5225,10 +5203,7 @@
                     "attributes": {
                       "type": "object",
                       "properties": {
-                        "Name": {
-                          "type": "string"
-                        },
-                        "Description": {
+                        "description": {
                           "type": "string"
                         },
                         "categories": {
@@ -5245,7 +5220,7 @@
                                   "attributes": {
                                     "type": "object",
                                     "properties": {
-                                      "Name": {
+                                      "name": {
                                         "type": "string"
                                       },
                                       "platforms": {

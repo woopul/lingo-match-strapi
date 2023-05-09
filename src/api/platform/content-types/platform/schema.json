@@ -16,17 +16,7 @@
     }
   },
   "attributes": {
-    "Name": {
-      "type": "string",
-      "required": true,
-      "unique": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "Description": {
+    "description": {
       "type": "richtext",
       "pluginOptions": {
         "i18n": {
@@ -93,8 +83,7 @@
           "localized": true
         }
       },
-      "type": "uid",
-      "targetField": "Name"
+      "type": "uid"
     },
     "seo": {
       "type": "component",
