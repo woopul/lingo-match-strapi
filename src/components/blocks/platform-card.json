@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_blocks_platform_cards",
+  "info": {
+    "displayName": "PlatformCard"
+  },
+  "options": {},
+  "attributes": {
+    "basicVersionLabel": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "basicVersionPayedLabel": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "priceForShortLabel": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "pricePerMonthLabel": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

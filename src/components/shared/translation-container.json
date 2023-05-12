@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_shared_translation_containers",
+  "info": {
+    "displayName": "TranslationContainer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "basicVersionPayedLabel": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "basicVersionLabel": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "priceForShortLabel": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "pricePerMonthLabel": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "goToPlatformViewButton": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

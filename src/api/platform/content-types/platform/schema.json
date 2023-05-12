@@ -54,21 +54,6 @@
         }
       }
     },
-    "labels": {
-      "type": "enumeration",
-      "enum": [
-        "grama",
-        "native",
-        "gaming",
-        "liveConversation"
-      ],
-      "required": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "rating": {
       "pluginOptions": {
         "i18n": {
@@ -113,6 +98,12 @@
       },
       "type": "string",
       "required": true
+    },
+    "labels": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::label.label",
+      "inversedBy": "platforms"
     }
   }
 }
