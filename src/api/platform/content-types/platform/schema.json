@@ -75,7 +75,10 @@
           "localized": true
         }
       },
-      "type": "decimal"
+      "type": "decimal",
+      "min": 0,
+      "max": 5,
+      "default": 3
     },
     "slug": {
       "pluginOptions": {
@@ -83,7 +86,8 @@
           "localized": true
         }
       },
-      "type": "uid"
+      "type": "uid",
+      "targetField": "title"
     },
     "seo": {
       "type": "component",
@@ -100,6 +104,15 @@
       "relation": "manyToMany",
       "target": "api::tag.tag",
       "inversedBy": "platforms"
+    },
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }
