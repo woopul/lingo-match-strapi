@@ -1,7 +1,8 @@
 {
   "collectionName": "components_blocks_platform_cards",
   "info": {
-    "displayName": "PlatformCard"
+    "displayName": "PlatformCard",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -24,6 +25,11 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "navigateToPlatformButtonLabel": {
+      "type": "string",
+      "unique": true,
+      "required": true
     }
   }
 }

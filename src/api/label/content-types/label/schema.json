@@ -39,7 +39,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::platform.platform",
-      "inversedBy": "labels"
+      "mappedBy": "labels"
     }
   }
 }
