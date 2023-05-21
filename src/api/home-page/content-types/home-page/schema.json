@@ -21,6 +21,16 @@
       "type": "component",
       "repeatable": false,
       "component": "blocks.platform-card"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "blocks.images-container",
+        "blocks.section-with-title",
+        "shared.grama",
+        "shared.hero",
+        "shared.link"
+      ]
     }
   }
 }

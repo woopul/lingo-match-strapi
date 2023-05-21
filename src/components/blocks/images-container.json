@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_images_containers",
+  "info": {
+    "displayName": "ImagesContainer"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

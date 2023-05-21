@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_section_with_titles",
+  "info": {
+    "displayName": "sectionWithTitle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title"
+    },
+    "description": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.description"
+    },
+    "richText": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.rich-text"
+    }
+  }
+}

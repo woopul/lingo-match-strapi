@@ -66,6 +66,22 @@
         }
       },
       "component": "shared.seo"
+    },
+    "blocks": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "blocks.images-container",
+        "blocks.section-with-title",
+        "blocks.spacing",
+        "shared.grama",
+        "shared.hero",
+        "shared.icon-link"
+      ]
     }
   }
 }

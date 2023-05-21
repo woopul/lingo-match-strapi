@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_blocks_spacings",
+  "info": {
+    "displayName": "Spacer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ]
+    },
+    "withDivider": {
+      "type": "boolean",
+      "default": false
+    },
+    "dividerPosition": {
+      "type": "enumeration",
+      "enum": [
+        "top",
+        "center",
+        "bottom"
+      ],
+      "default": "center"
+    }
+  }
+}
