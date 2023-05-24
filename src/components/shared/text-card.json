@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_text_cards",
+  "info": {
+    "displayName": "TextCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.title"
+    }
+  }
+}

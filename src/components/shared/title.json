@@ -1,7 +1,8 @@
 {
   "collectionName": "components_shared_titles",
   "info": {
-    "displayName": "Title"
+    "displayName": "Title",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,15 +10,17 @@
       "type": "string",
       "required": true
     },
-    "size": {
+    "titleSizeStyle": {
       "type": "enumeration",
       "enum": [
-        "S",
-        "M",
-        "L",
-        "XL"
+        "text-hero",
+        "text-h1",
+        "text-h2",
+        "text-h3",
+        "text-h4",
+        "text-h5"
       ],
-      "default": "L"
+      "default": "text-h1"
     },
     "tagType": {
       "type": "enumeration",
@@ -26,9 +29,18 @@
         "h2",
         "h3",
         "h4",
-        "h5",
-        "h6"
-      ]
+        "h5"
+      ],
+      "default": "h2"
+    },
+    "horizontalAligment": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "center",
+        "right"
+      ],
+      "default": "left"
     }
   }
 }

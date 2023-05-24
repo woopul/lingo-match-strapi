@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "tags",
+  "collectionName": "blog_categories",
   "info": {
-    "singularName": "tag",
-    "pluralName": "tags",
-    "displayName": "Tag",
+    "singularName": "blog-category",
+    "pluralName": "blog-categories",
+    "displayName": "BlogCategory",
     "description": ""
   },
   "options": {
@@ -22,32 +22,25 @@
           "localized": true
         }
       },
-      "type": "string",
-      "unique": false,
-      "required": true
+      "type": "string"
     },
     "type": {
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
       "type": "enumeration",
       "enum": [
-        "grama",
-        "reading",
-        "listening",
-        "writing",
-        "communication",
-        "speach",
-        "vocabulary"
+        "category1",
+        "category2"
       ]
     },
-    "platforms": {
+    "blogs": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::platform.platform",
-      "mappedBy": "tags"
+      "target": "api::blogpost.blogpost",
+      "mappedBy": "blogCategories"
     }
   }
 }

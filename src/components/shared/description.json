@@ -6,22 +6,31 @@
   },
   "options": {},
   "attributes": {
-    "content": {
+    "description": {
       "type": "text"
     },
-    "size": {
+    "descriptionSizeStyle": {
       "type": "enumeration",
       "enum": [
         "S",
         "M",
         "L",
         "XL"
-      ]
+      ],
+      "default": "L"
     },
     "textColor": {
       "type": "customField",
       "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
       "customField": "plugin::color-picker.color"
+    },
+    "descriptionRichText": {
+      "type": "richtext"
+    },
+    "asBulletPoint": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
