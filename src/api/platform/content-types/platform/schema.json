@@ -120,6 +120,12 @@
       },
       "type": "decimal",
       "default": 0
+    },
+    "languageTags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::language-platform-tag.language-platform-tag",
+      "inversedBy": "platforms"
     }
   }
 }

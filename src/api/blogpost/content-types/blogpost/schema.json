@@ -35,7 +35,8 @@
           "localized": true
         }
       },
-      "type": "uid"
+      "type": "uid",
+      "targetField": "title"
     },
     "seo": {
       "type": "component",
