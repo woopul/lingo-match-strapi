@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "checkboxColumn": {
+    "checkboxLabels": {
       "type": "component",
       "repeatable": true,
       "component": "shared.checkbox-label"

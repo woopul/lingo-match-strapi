@@ -126,6 +126,20 @@
       "relation": "manyToMany",
       "target": "api::language-platform-tag.language-platform-tag",
       "inversedBy": "platforms"
+    },
+    "currency": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "PLN",
+        "USD"
+      ],
+      "default": "PLN",
+      "required": true
     }
   }
 }

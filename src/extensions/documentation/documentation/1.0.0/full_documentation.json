@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-05-29T18:12:25.047Z"
+    "x-generation-date": "2023-05-30T19:51:01.477Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2034,7 +2034,7 @@
                                   "__component": {
                                     "type": "string"
                                   },
-                                  "checkboxColumn": {
+                                  "columns": {
                                     "type": "array",
                                     "items": {
                                       "type": "object",
@@ -2042,11 +2042,22 @@
                                         "id": {
                                           "type": "number"
                                         },
-                                        "label": {
-                                          "type": "string"
-                                        },
-                                        "checked": {
-                                          "type": "boolean"
+                                        "checkboxLabels": {
+                                          "type": "array",
+                                          "items": {
+                                            "type": "object",
+                                            "properties": {
+                                              "id": {
+                                                "type": "number"
+                                              },
+                                              "label": {
+                                                "type": "string"
+                                              },
+                                              "checked": {
+                                                "type": "boolean"
+                                              }
+                                            }
+                                          }
                                         }
                                       }
                                     }
@@ -2369,7 +2380,7 @@
                   "$ref": "#/components/schemas/SharedIconLinkComponent"
                 },
                 {
-                  "$ref": "#/components/schemas/BlocksCheckboxColumnComponent"
+                  "$ref": "#/components/schemas/BlocksCheckboxColumnsComponent"
                 }
               ]
             }
@@ -2451,7 +2462,7 @@
                       "$ref": "#/components/schemas/SharedIconLinkComponent"
                     },
                     {
-                      "$ref": "#/components/schemas/BlocksCheckboxColumnComponent"
+                      "$ref": "#/components/schemas/BlocksCheckboxColumnsComponent"
                     }
                   ]
                 }
@@ -3253,7 +3264,7 @@
                   "$ref": "#/components/schemas/SharedIconLinkComponent"
                 },
                 {
-                  "$ref": "#/components/schemas/BlocksCheckboxColumnComponent"
+                  "$ref": "#/components/schemas/BlocksCheckboxColumnsComponent"
                 }
               ]
             }
@@ -4556,7 +4567,7 @@
                                                 "__component": {
                                                   "type": "string"
                                                 },
-                                                "checkboxColumn": {
+                                                "columns": {
                                                   "type": "array",
                                                   "items": {
                                                     "type": "object",
@@ -4564,11 +4575,22 @@
                                                       "id": {
                                                         "type": "number"
                                                       },
-                                                      "label": {
-                                                        "type": "string"
-                                                      },
-                                                      "checked": {
-                                                        "type": "boolean"
+                                                      "checkboxLabels": {
+                                                        "type": "array",
+                                                        "items": {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "id": {
+                                                              "type": "number"
+                                                            },
+                                                            "label": {
+                                                              "type": "string"
+                                                            },
+                                                            "checked": {
+                                                              "type": "boolean"
+                                                            }
+                                                          }
+                                                        }
                                                       }
                                                     }
                                                   }
@@ -5898,21 +5920,32 @@
           }
         }
       },
-      "SharedCheckboxLabelComponent": {
+      "BlocksCheckboxColumnComponent": {
         "type": "object",
         "properties": {
           "id": {
             "type": "number"
           },
-          "label": {
-            "type": "string"
-          },
-          "checked": {
-            "type": "boolean"
+          "checkboxLabels": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "label": {
+                  "type": "string"
+                },
+                "checked": {
+                  "type": "boolean"
+                }
+              }
+            }
           }
         }
       },
-      "BlocksCheckboxColumnComponent": {
+      "BlocksCheckboxColumnsComponent": {
         "type": "object",
         "properties": {
           "id": {
@@ -5921,10 +5954,10 @@
           "__component": {
             "type": "string"
           },
-          "checkboxColumn": {
+          "columns": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/SharedCheckboxLabelComponent"
+              "$ref": "#/components/schemas/BlocksCheckboxColumnComponent"
             }
           }
         }
@@ -7540,6 +7573,13 @@
                             }
                           }
                         },
+                        "currency": {
+                          "type": "string",
+                          "enum": [
+                            "PLN",
+                            "USD"
+                          ]
+                        },
                         "createdAt": {
                           "type": "string",
                           "format": "date-time"
@@ -7902,6 +7942,9 @@
             "type": "string"
           },
           "path": {
+            "type": "string"
+          },
+          "textColor": {
             "type": "string"
           }
         }
@@ -9771,6 +9814,13 @@
                             }
                           }
                         },
+                        "currency": {
+                          "type": "string",
+                          "enum": [
+                            "PLN",
+                            "USD"
+                          ]
+                        },
                         "createdAt": {
                           "type": "string",
                           "format": "date-time"
@@ -11525,6 +11575,13 @@
                             }
                           }
                         },
+                        "currency": {
+                          "type": "string",
+                          "enum": [
+                            "PLN",
+                            "USD"
+                          ]
+                        },
                         "createdAt": {
                           "type": "string",
                           "format": "date-time"
@@ -12081,6 +12138,9 @@
                   "type": "string"
                 },
                 "path": {
+                  "type": "string"
+                },
+                "textColor": {
                   "type": "string"
                 }
               }
@@ -12671,6 +12731,7 @@
       "PlatformLocalizationRequest": {
         "required": [
           "title",
+          "currency",
           "locale"
         ],
         "type": "object",
@@ -12769,6 +12830,13 @@
               "example": "string or id"
             }
           },
+          "currency": {
+            "type": "string",
+            "enum": [
+              "PLN",
+              "USD"
+            ]
+          },
           "locale": {
             "type": "string"
           }
@@ -12782,7 +12850,8 @@
         "properties": {
           "data": {
             "required": [
-              "title"
+              "title",
+              "currency"
             ],
             "type": "object",
             "properties": {
@@ -12879,6 +12948,13 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "currency": {
+                "type": "string",
+                "enum": [
+                  "PLN",
+                  "USD"
+                ]
               },
               "locale": {
                 "type": "string"
@@ -13004,7 +13080,8 @@
       "Platform": {
         "type": "object",
         "required": [
-          "title"
+          "title",
+          "currency"
         ],
         "properties": {
           "description": {
@@ -14480,6 +14557,13 @@
                                           }
                                         }
                                       },
+                                      "currency": {
+                                        "type": "string",
+                                        "enum": [
+                                          "PLN",
+                                          "USD"
+                                        ]
+                                      },
                                       "createdAt": {
                                         "type": "string",
                                         "format": "date-time"
@@ -14820,6 +14904,13 @@
                 }
               }
             }
+          },
+          "currency": {
+            "type": "string",
+            "enum": [
+              "PLN",
+              "USD"
+            ]
           },
           "createdAt": {
             "type": "string",
@@ -16651,6 +16742,13 @@
                               }
                             }
                           }
+                        },
+                        "currency": {
+                          "type": "string",
+                          "enum": [
+                            "PLN",
+                            "USD"
+                          ]
                         },
                         "createdAt": {
                           "type": "string",

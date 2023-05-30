@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "column": {
+    "columns": {
       "type": "component",
       "repeatable": true,
       "component": "blocks.checkbox-column",
