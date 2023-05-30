@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_checkbox_labels",
+  "info": {
+    "displayName": "CheckboxLabel"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "checked": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

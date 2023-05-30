@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_checkbox_column",
+  "info": {
+    "displayName": "CheckboxColumn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "checkboxColumn": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.checkbox-label"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blocks_checkbox_columns",
+  "info": {
+    "displayName": "CheckboxColumns",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "column": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.checkbox-column",
+      "max": 3
+    }
+  }
+}

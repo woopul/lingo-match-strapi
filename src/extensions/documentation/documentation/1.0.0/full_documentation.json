@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-05-29T16:19:44.534Z"
+    "x-generation-date": "2023-05-29T18:12:25.047Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2024,6 +2024,34 @@
                                     "type": "string"
                                   }
                                 }
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "number"
+                                  },
+                                  "__component": {
+                                    "type": "string"
+                                  },
+                                  "checkboxColumn": {
+                                    "type": "array",
+                                    "items": {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "number"
+                                        },
+                                        "label": {
+                                          "type": "string"
+                                        },
+                                        "checked": {
+                                          "type": "boolean"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
                               }
                             ]
                           }
@@ -2339,6 +2367,9 @@
                 },
                 {
                   "$ref": "#/components/schemas/SharedIconLinkComponent"
+                },
+                {
+                  "$ref": "#/components/schemas/BlocksCheckboxColumnComponent"
                 }
               ]
             }
@@ -2418,6 +2449,9 @@
                     },
                     {
                       "$ref": "#/components/schemas/SharedIconLinkComponent"
+                    },
+                    {
+                      "$ref": "#/components/schemas/BlocksCheckboxColumnComponent"
                     }
                   ]
                 }
@@ -3217,6 +3251,9 @@
                 },
                 {
                   "$ref": "#/components/schemas/SharedIconLinkComponent"
+                },
+                {
+                  "$ref": "#/components/schemas/BlocksCheckboxColumnComponent"
                 }
               ]
             }
@@ -4507,6 +4544,34 @@
                                                 },
                                                 "href": {
                                                   "type": "string"
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "type": "object",
+                                              "properties": {
+                                                "id": {
+                                                  "type": "number"
+                                                },
+                                                "__component": {
+                                                  "type": "string"
+                                                },
+                                                "checkboxColumn": {
+                                                  "type": "array",
+                                                  "items": {
+                                                    "type": "object",
+                                                    "properties": {
+                                                      "id": {
+                                                        "type": "number"
+                                                      },
+                                                      "label": {
+                                                        "type": "string"
+                                                      },
+                                                      "checked": {
+                                                        "type": "boolean"
+                                                      }
+                                                    }
+                                                  }
                                                 }
                                               }
                                             }
@@ -5830,6 +5895,37 @@
           },
           "href": {
             "type": "string"
+          }
+        }
+      },
+      "SharedCheckboxLabelComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "label": {
+            "type": "string"
+          },
+          "checked": {
+            "type": "boolean"
+          }
+        }
+      },
+      "BlocksCheckboxColumnComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "__component": {
+            "type": "string"
+          },
+          "checkboxColumn": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/SharedCheckboxLabelComponent"
+            }
           }
         }
       },

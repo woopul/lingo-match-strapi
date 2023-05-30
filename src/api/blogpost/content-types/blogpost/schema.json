@@ -61,7 +61,8 @@
         "blocks.spacing",
         "shared.grama",
         "shared.hero",
-        "shared.icon-link"
+        "shared.icon-link",
+        "blocks.checkbox-column"
       ]
     },
     "author": {
