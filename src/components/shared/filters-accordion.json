@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_shared_filters_accordions",
+  "info": {
+    "displayName": "FiltersAccordion",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag.tag"
+    },
+    "shouldBeExpandable": {
+      "type": "boolean",
+      "default": true
+    },
+    "expanded": {
+      "type": "boolean",
+      "default": true
+    },
+    "variant": {
+      "type": "enumeration",
+      "enum": [
+        "label",
+        "toggle",
+        "icon",
+        "default"
+      ],
+      "default": "icon"
+    },
+    "positionReveresed": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
