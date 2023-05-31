@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_shared_filters_accordions",
+  "collectionName": "components_shared_main_filters_accordions",
   "info": {
-    "displayName": "FiltersAccordion",
+    "displayName": "MainFiltersAccordion",
     "description": ""
   },
   "options": {},
@@ -14,9 +14,7 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "tags": {
       "type": "relation",
@@ -33,12 +31,7 @@
     },
     "variant": {
       "type": "enumeration",
-      "enum": [
-        "label",
-        "toggle",
-        "icon",
-        "default"
-      ],
+      "enum": ["label", "toggle", "icon", "default"],
       "default": "icon"
     },
     "positionReveresed": {
