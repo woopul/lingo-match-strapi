@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-06-01T23:28:38.696Z"
+    "x-generation-date": "2023-06-01T23:57:31.235Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -6387,9 +6387,6 @@
                                   "attributes": {
                                     "type": "object",
                                     "properties": {
-                                      "description": {
-                                        "type": "string"
-                                      },
                                       "priceAsNumber": {
                                         "type": "number",
                                         "format": "float"
@@ -8158,9 +8155,6 @@
                     "attributes": {
                       "type": "object",
                       "properties": {
-                        "description": {
-                          "type": "string"
-                        },
                         "priceAsNumber": {
                           "type": "number",
                           "format": "float"
@@ -10171,9 +10165,6 @@
         ],
         "type": "object",
         "properties": {
-          "description": {
-            "type": "string"
-          },
           "priceAsNumber": {
             "type": "number",
             "format": "float"
@@ -10262,9 +10253,6 @@
             ],
             "type": "object",
             "properties": {
-              "description": {
-                "type": "string"
-              },
               "priceAsNumber": {
                 "type": "number",
                 "format": "float"
@@ -10463,9 +10451,6 @@
           "currency"
         ],
         "properties": {
-          "description": {
-            "type": "string"
-          },
           "priceAsNumber": {
             "type": "number",
             "format": "float"
@@ -11132,9 +11117,6 @@
                                   "attributes": {
                                     "type": "object",
                                     "properties": {
-                                      "description": {
-                                        "type": "string"
-                                      },
                                       "priceAsNumber": {
                                         "type": "number",
                                         "format": "float"
@@ -12357,9 +12339,6 @@
                     "attributes": {
                       "type": "object",
                       "properties": {
-                        "description": {
-                          "type": "string"
-                        },
                         "priceAsNumber": {
                           "type": "number",
                           "format": "float"

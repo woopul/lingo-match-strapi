@@ -16,14 +16,6 @@
     }
   },
   "attributes": {
-    "description": {
-      "type": "richtext",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "priceAsNumber": {
       "type": "decimal",
       "pluginOptions": {
