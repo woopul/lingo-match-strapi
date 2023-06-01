@@ -24,12 +24,6 @@
         }
       }
     },
-    "categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::category.category",
-      "mappedBy": "platforms"
-    },
     "priceAsNumber": {
       "type": "decimal",
       "pluginOptions": {
