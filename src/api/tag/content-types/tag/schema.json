@@ -4,7 +4,7 @@
   "info": {
     "singularName": "tag",
     "pluralName": "tags",
-    "displayName": "Tag",
+    "displayName": "platformTags",
     "description": ""
   },
   "options": {
@@ -26,28 +26,20 @@
       "unique": false,
       "required": true
     },
+    "platforms": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::platform.platform",
+      "mappedBy": "tags"
+    },
     "type": {
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       },
-      "type": "enumeration",
-      "enum": [
-        "grama",
-        "reading",
-        "listening",
-        "writing",
-        "communication",
-        "speach",
-        "vocabulary"
-      ]
-    },
-    "platforms": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::platform.platform",
-      "mappedBy": "tags"
+      "type": "string",
+      "required": true
     }
   }
 }

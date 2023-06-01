@@ -14,7 +14,9 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": ["images"]
+      "allowedTypes": [
+        "images"
+      ]
     },
     "tags": {
       "type": "relation",
@@ -31,12 +33,22 @@
     },
     "variant": {
       "type": "enumeration",
-      "enum": ["label", "toggle", "icon", "default"],
+      "enum": [
+        "label",
+        "toggle",
+        "icon",
+        "default"
+      ],
       "default": "icon"
     },
-    "positionReveresed": {
+    "positionReversed": {
       "type": "boolean",
       "default": false
+    },
+    "generalTags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::tag.tag"
     }
   }
 }
