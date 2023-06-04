@@ -30,6 +30,9 @@
       "type": "string",
       "unique": true,
       "required": true
+    },
+    "paymentInForeignCurrencyLabel": {
+      "type": "string"
     }
   }
 }

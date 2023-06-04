@@ -24,7 +24,8 @@
         }
       },
       "default": 4,
-      "min": 0
+      "min": 0,
+      "required": true
     },
     "logo": {
       "type": "media",
@@ -96,7 +97,8 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "priceBeforeDiscountAsNumber": {
       "pluginOptions": {
@@ -105,7 +107,8 @@
         }
       },
       "type": "decimal",
-      "default": 0
+      "default": 0,
+      "required": false
     },
     "currency": {
       "pluginOptions": {
@@ -116,7 +119,21 @@
       "type": "enumeration",
       "enum": [
         "PLN",
-        "USD"
+        "USD",
+        "EUR"
+      ],
+      "default": "PLN",
+      "required": true
+    },
+    "mainCurrencyForThisMarket": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "PLN"
       ],
       "default": "PLN",
       "required": true

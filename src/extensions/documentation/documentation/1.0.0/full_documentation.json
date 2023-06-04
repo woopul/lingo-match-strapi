@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-06-01T23:57:31.235Z"
+    "x-generation-date": "2023-06-04T20:49:57.960Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -6185,6 +6185,9 @@
           },
           "navigateToPlatformButtonLabel": {
             "type": "string"
+          },
+          "paymentInForeignCurrencyLabel": {
+            "type": "string"
           }
         }
       },
@@ -7141,7 +7144,14 @@
                                         "type": "string",
                                         "enum": [
                                           "PLN",
-                                          "USD"
+                                          "USD",
+                                          "EUR"
+                                        ]
+                                      },
+                                      "mainCurrencyForThisMarket": {
+                                        "type": "string",
+                                        "enum": [
+                                          "PLN"
                                         ]
                                       },
                                       "createdAt": {
@@ -8994,7 +9004,14 @@
                           "type": "string",
                           "enum": [
                             "PLN",
-                            "USD"
+                            "USD",
+                            "EUR"
+                          ]
+                        },
+                        "mainCurrencyForThisMarket": {
+                          "type": "string",
+                          "enum": [
+                            "PLN"
                           ]
                         },
                         "createdAt": {
@@ -10159,8 +10176,11 @@
       },
       "PlatformLocalizationRequest": {
         "required": [
+          "priceAsNumber",
           "title",
+          "shortDescription",
           "currency",
+          "mainCurrencyForThisMarket",
           "locale"
         ],
         "type": "object",
@@ -10232,7 +10252,14 @@
             "type": "string",
             "enum": [
               "PLN",
-              "USD"
+              "USD",
+              "EUR"
+            ]
+          },
+          "mainCurrencyForThisMarket": {
+            "type": "string",
+            "enum": [
+              "PLN"
             ]
           },
           "locale": {
@@ -10248,8 +10275,11 @@
         "properties": {
           "data": {
             "required": [
+              "priceAsNumber",
               "title",
-              "currency"
+              "shortDescription",
+              "currency",
+              "mainCurrencyForThisMarket"
             ],
             "type": "object",
             "properties": {
@@ -10320,7 +10350,14 @@
                 "type": "string",
                 "enum": [
                   "PLN",
-                  "USD"
+                  "USD",
+                  "EUR"
+                ]
+              },
+              "mainCurrencyForThisMarket": {
+                "type": "string",
+                "enum": [
+                  "PLN"
                 ]
               },
               "locale": {
@@ -10447,8 +10484,11 @@
       "Platform": {
         "type": "object",
         "required": [
+          "priceAsNumber",
           "title",
-          "currency"
+          "shortDescription",
+          "currency",
+          "mainCurrencyForThisMarket"
         ],
         "properties": {
           "priceAsNumber": {
@@ -11871,7 +11911,14 @@
                                         "type": "string",
                                         "enum": [
                                           "PLN",
-                                          "USD"
+                                          "USD",
+                                          "EUR"
+                                        ]
+                                      },
+                                      "mainCurrencyForThisMarket": {
+                                        "type": "string",
+                                        "enum": [
+                                          "PLN"
                                         ]
                                       },
                                       "createdAt": {
@@ -12041,7 +12088,14 @@
             "type": "string",
             "enum": [
               "PLN",
-              "USD"
+              "USD",
+              "EUR"
+            ]
+          },
+          "mainCurrencyForThisMarket": {
+            "type": "string",
+            "enum": [
+              "PLN"
             ]
           },
           "createdAt": {
@@ -13660,7 +13714,14 @@
                           "type": "string",
                           "enum": [
                             "PLN",
-                            "USD"
+                            "USD",
+                            "EUR"
+                          ]
+                        },
+                        "mainCurrencyForThisMarket": {
+                          "type": "string",
+                          "enum": [
+                            "PLN"
                           ]
                         },
                         "createdAt": {
