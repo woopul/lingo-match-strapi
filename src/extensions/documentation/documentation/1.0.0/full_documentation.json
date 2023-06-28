@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-06-05T20:39:51.551Z"
+    "x-generation-date": "2023-06-28T20:59:17.091Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -1462,26 +1462,14 @@
                                         "id": {
                                           "type": "number"
                                         },
-                                        "description": {
-                                          "type": "string"
-                                        },
-                                        "descriptionSizeStyle": {
-                                          "type": "string",
-                                          "enum": [
-                                            "S",
-                                            "M",
-                                            "L",
-                                            "XL"
-                                          ]
-                                        },
                                         "textColor": {
-                                          "type": "string"
-                                        },
-                                        "descriptionRichText": {
                                           "type": "string"
                                         },
                                         "asBulletPoint": {
                                           "type": "boolean"
+                                        },
+                                        "descriptionText": {
+                                          "type": "string"
                                         }
                                       }
                                     }
@@ -3995,26 +3983,14 @@
                                                       "id": {
                                                         "type": "number"
                                                       },
-                                                      "description": {
-                                                        "type": "string"
-                                                      },
-                                                      "descriptionSizeStyle": {
-                                                        "type": "string",
-                                                        "enum": [
-                                                          "S",
-                                                          "M",
-                                                          "L",
-                                                          "XL"
-                                                        ]
-                                                      },
                                                       "textColor": {
-                                                        "type": "string"
-                                                      },
-                                                      "descriptionRichText": {
                                                         "type": "string"
                                                       },
                                                       "asBulletPoint": {
                                                         "type": "boolean"
+                                                      },
+                                                      "descriptionText": {
+                                                        "type": "string"
                                                       }
                                                     }
                                                   }
@@ -5377,26 +5353,14 @@
           "id": {
             "type": "number"
           },
-          "description": {
-            "type": "string"
-          },
-          "descriptionSizeStyle": {
-            "type": "string",
-            "enum": [
-              "S",
-              "M",
-              "L",
-              "XL"
-            ]
-          },
           "textColor": {
-            "type": "string"
-          },
-          "descriptionRichText": {
             "type": "string"
           },
           "asBulletPoint": {
             "type": "boolean"
+          },
+          "descriptionText": {
+            "type": "string"
           }
         }
       },
