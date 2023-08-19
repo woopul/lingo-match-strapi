@@ -42,15 +42,10 @@
       },
       "type": "dynamiczone",
       "components": [
-        "blocks.platform-card",
-        "shared.footer-column",
         "shared.grama",
         "shared.hero",
         "shared.icon-link",
         "shared.link",
-        "shared.meta-social",
-        "shared.seo",
-        "shared.translation-container",
         "blocks.images-container"
       ]
     }

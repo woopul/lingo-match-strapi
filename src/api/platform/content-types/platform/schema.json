@@ -137,6 +137,14 @@
       ],
       "default": "PLN",
       "required": true
+    },
+    "shortDescriptionMobile": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
