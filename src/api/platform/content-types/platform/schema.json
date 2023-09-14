@@ -60,16 +60,6 @@
       "type": "uid",
       "targetField": "title"
     },
-    "seo": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "shared.seo"
-    },
     "tags": {
       "type": "relation",
       "relation": "manyToMany",
@@ -145,6 +135,40 @@
         }
       },
       "type": "string"
+    },
+    "recomendedPlatforms": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "blocks.recommended-plarforms"
+    },
+    "blocks": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "blocks.checkbox-column",
+        "blocks.checkbox-columns",
+        "blocks.header",
+        "blocks.images-container",
+        "blocks.recommended-plarforms",
+        "blocks.section-with-title",
+        "blocks.spacing",
+        "shared.checkbox-label",
+        "shared.description",
+        "shared.grama",
+        "shared.icon-link",
+        "shared.rich-text",
+        "shared.text-card",
+        "shared.title"
+      ]
     }
   }
 }

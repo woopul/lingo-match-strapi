@@ -42,6 +42,12 @@
       "required": true,
       "default": 5,
       "min": 1
+    },
+    "platformNotFound": {
+      "displayName": "PlatformsNotFound",
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.platforms-not-found"
     }
   }
 }

@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_blocks_platforms_not_founds",
+  "info": {
+    "displayName": "PlatformsNotFound",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Not Found"
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true,
+      "default": "subtitle"
+    },
+    "description": {
+      "type": "customField",
+      "options": {
+        "output": "Markdown",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "imageSrc": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

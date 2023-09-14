@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_recommended_plarforms",
+  "info": {
+    "displayName": "RecommendedPlarforms"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "platforms": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::platform.platform"
+    }
+  }
+}
