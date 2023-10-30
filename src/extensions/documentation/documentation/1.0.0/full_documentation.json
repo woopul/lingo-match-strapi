@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-09-14T21:58:11.733Z"
+    "x-generation-date": "2023-10-30T17:31:49.924Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -7292,37 +7292,6 @@
                                       "shortDescriptionMobile": {
                                         "type": "string"
                                       },
-                                      "recomendedPlatforms": {
-                                        "type": "object",
-                                        "properties": {
-                                          "id": {
-                                            "type": "number"
-                                          },
-                                          "title": {
-                                            "type": "string"
-                                          },
-                                          "platforms": {
-                                            "type": "object",
-                                            "properties": {
-                                              "data": {
-                                                "type": "array",
-                                                "items": {
-                                                  "type": "object",
-                                                  "properties": {
-                                                    "id": {
-                                                      "type": "number"
-                                                    },
-                                                    "attributes": {
-                                                      "type": "object",
-                                                      "properties": {}
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      },
                                       "blocks": {
                                         "type": "array",
                                         "items": {
@@ -7715,40 +7684,6 @@
                                                                 }
                                                               }
                                                             }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            },
-                                            {
-                                              "type": "object",
-                                              "properties": {
-                                                "id": {
-                                                  "type": "number"
-                                                },
-                                                "__component": {
-                                                  "type": "string"
-                                                },
-                                                "title": {
-                                                  "type": "string"
-                                                },
-                                                "platforms": {
-                                                  "type": "object",
-                                                  "properties": {
-                                                    "data": {
-                                                      "type": "array",
-                                                      "items": {
-                                                        "type": "object",
-                                                        "properties": {
-                                                          "id": {
-                                                            "type": "number"
-                                                          },
-                                                          "attributes": {
-                                                            "type": "object",
-                                                            "properties": {}
                                                           }
                                                         }
                                                       }
@@ -8311,6 +8246,40 @@
                                                     "center",
                                                     "right"
                                                   ]
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "type": "object",
+                                              "properties": {
+                                                "id": {
+                                                  "type": "number"
+                                                },
+                                                "__component": {
+                                                  "type": "string"
+                                                },
+                                                "platforms": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "data": {
+                                                      "type": "array",
+                                                      "items": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                          "id": {
+                                                            "type": "number"
+                                                          },
+                                                          "attributes": {
+                                                            "type": "object",
+                                                            "properties": {}
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "title": {
+                                                  "type": "string"
                                                 }
                                               }
                                             }
@@ -10007,37 +9976,6 @@
                         "shortDescriptionMobile": {
                           "type": "string"
                         },
-                        "recomendedPlatforms": {
-                          "type": "object",
-                          "properties": {
-                            "id": {
-                              "type": "number"
-                            },
-                            "title": {
-                              "type": "string"
-                            },
-                            "platforms": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "array",
-                                  "items": {
-                                    "type": "object",
-                                    "properties": {
-                                      "id": {
-                                        "type": "number"
-                                      },
-                                      "attributes": {
-                                        "type": "object",
-                                        "properties": {}
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        },
                         "blocks": {
                           "type": "array",
                           "items": {
@@ -10430,40 +10368,6 @@
                                                   }
                                                 }
                                               }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              },
-                              {
-                                "type": "object",
-                                "properties": {
-                                  "id": {
-                                    "type": "number"
-                                  },
-                                  "__component": {
-                                    "type": "string"
-                                  },
-                                  "title": {
-                                    "type": "string"
-                                  },
-                                  "platforms": {
-                                    "type": "object",
-                                    "properties": {
-                                      "data": {
-                                        "type": "array",
-                                        "items": {
-                                          "type": "object",
-                                          "properties": {
-                                            "id": {
-                                              "type": "number"
-                                            },
-                                            "attributes": {
-                                              "type": "object",
-                                              "properties": {}
                                             }
                                           }
                                         }
@@ -11026,6 +10930,40 @@
                                       "center",
                                       "right"
                                     ]
+                                  }
+                                }
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "number"
+                                  },
+                                  "__component": {
+                                    "type": "string"
+                                  },
+                                  "platforms": {
+                                    "type": "object",
+                                    "properties": {
+                                      "data": {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "object",
+                                          "properties": {
+                                            "id": {
+                                              "type": "number"
+                                            },
+                                            "attributes": {
+                                              "type": "object",
+                                              "properties": {}
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "title": {
+                                    "type": "string"
                                   }
                                 }
                               }
@@ -12188,9 +12126,6 @@
           "shortDescriptionMobile": {
             "type": "string"
           },
-          "recomendedPlatforms": {
-            "$ref": "#/components/schemas/BlocksRecommendedPlarformsComponent"
-          },
           "blocks": {
             "type": "array",
             "items": {
@@ -12206,9 +12141,6 @@
                 },
                 {
                   "$ref": "#/components/schemas/BlocksImagesContainerComponent"
-                },
-                {
-                  "$ref": "#/components/schemas/BlocksRecommendedPlarformsComponent"
                 },
                 {
                   "$ref": "#/components/schemas/BlocksSectionWithTitleComponent"
@@ -12236,6 +12168,9 @@
                 },
                 {
                   "$ref": "#/components/schemas/SharedTitleComponent"
+                },
+                {
+                  "$ref": "#/components/schemas/BlocksRecommendedPlatformsComponent"
                 }
               ]
             }
@@ -12338,9 +12273,6 @@
               "shortDescriptionMobile": {
                 "type": "string"
               },
-              "recomendedPlatforms": {
-                "$ref": "#/components/schemas/BlocksRecommendedPlarformsComponent"
-              },
               "blocks": {
                 "type": "array",
                 "items": {
@@ -12356,9 +12288,6 @@
                     },
                     {
                       "$ref": "#/components/schemas/BlocksImagesContainerComponent"
-                    },
-                    {
-                      "$ref": "#/components/schemas/BlocksRecommendedPlarformsComponent"
                     },
                     {
                       "$ref": "#/components/schemas/BlocksSectionWithTitleComponent"
@@ -12386,6 +12315,9 @@
                     },
                     {
                       "$ref": "#/components/schemas/SharedTitleComponent"
+                    },
+                    {
+                      "$ref": "#/components/schemas/BlocksRecommendedPlatformsComponent"
                     }
                   ]
                 }
@@ -13622,37 +13554,6 @@
                                       "shortDescriptionMobile": {
                                         "type": "string"
                                       },
-                                      "recomendedPlatforms": {
-                                        "type": "object",
-                                        "properties": {
-                                          "id": {
-                                            "type": "number"
-                                          },
-                                          "title": {
-                                            "type": "string"
-                                          },
-                                          "platforms": {
-                                            "type": "object",
-                                            "properties": {
-                                              "data": {
-                                                "type": "array",
-                                                "items": {
-                                                  "type": "object",
-                                                  "properties": {
-                                                    "id": {
-                                                      "type": "number"
-                                                    },
-                                                    "attributes": {
-                                                      "type": "object",
-                                                      "properties": {}
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            }
-                                          }
-                                        }
-                                      },
                                       "blocks": {
                                         "type": "array",
                                         "items": {
@@ -14045,40 +13946,6 @@
                                                                 }
                                                               }
                                                             }
-                                                          }
-                                                        }
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            },
-                                            {
-                                              "type": "object",
-                                              "properties": {
-                                                "id": {
-                                                  "type": "number"
-                                                },
-                                                "__component": {
-                                                  "type": "string"
-                                                },
-                                                "title": {
-                                                  "type": "string"
-                                                },
-                                                "platforms": {
-                                                  "type": "object",
-                                                  "properties": {
-                                                    "data": {
-                                                      "type": "array",
-                                                      "items": {
-                                                        "type": "object",
-                                                        "properties": {
-                                                          "id": {
-                                                            "type": "number"
-                                                          },
-                                                          "attributes": {
-                                                            "type": "object",
-                                                            "properties": {}
                                                           }
                                                         }
                                                       }
@@ -14643,6 +14510,40 @@
                                                   ]
                                                 }
                                               }
+                                            },
+                                            {
+                                              "type": "object",
+                                              "properties": {
+                                                "id": {
+                                                  "type": "number"
+                                                },
+                                                "__component": {
+                                                  "type": "string"
+                                                },
+                                                "platforms": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "data": {
+                                                      "type": "array",
+                                                      "items": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                          "id": {
+                                                            "type": "number"
+                                                          },
+                                                          "attributes": {
+                                                            "type": "object",
+                                                            "properties": {}
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "title": {
+                                                  "type": "string"
+                                                }
+                                              }
                                             }
                                           ]
                                         }
@@ -14827,9 +14728,6 @@
           "shortDescriptionMobile": {
             "type": "string"
           },
-          "recomendedPlatforms": {
-            "$ref": "#/components/schemas/BlocksRecommendedPlarformsComponent"
-          },
           "blocks": {
             "type": "array",
             "items": {
@@ -14845,9 +14743,6 @@
                 },
                 {
                   "$ref": "#/components/schemas/BlocksImagesContainerComponent"
-                },
-                {
-                  "$ref": "#/components/schemas/BlocksRecommendedPlarformsComponent"
                 },
                 {
                   "$ref": "#/components/schemas/BlocksSectionWithTitleComponent"
@@ -14875,6 +14770,9 @@
                 },
                 {
                   "$ref": "#/components/schemas/SharedTitleComponent"
+                },
+                {
+                  "$ref": "#/components/schemas/BlocksRecommendedPlatformsComponent"
                 }
               ]
             }
@@ -14963,40 +14861,6 @@
           }
         }
       },
-      "BlocksRecommendedPlarformsComponent": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "number"
-          },
-          "__component": {
-            "type": "string"
-          },
-          "title": {
-            "type": "string"
-          },
-          "platforms": {
-            "type": "object",
-            "properties": {
-              "data": {
-                "type": "array",
-                "items": {
-                  "type": "object",
-                  "properties": {
-                    "id": {
-                      "type": "number"
-                    },
-                    "attributes": {
-                      "type": "object",
-                      "properties": {}
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      },
       "SharedCheckboxLabelComponent": {
         "type": "object",
         "properties": {
@@ -15039,6 +14903,40 @@
           },
           "title": {
             "$ref": "#/components/schemas/SharedTitleComponent"
+          }
+        }
+      },
+      "BlocksRecommendedPlatformsComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "__component": {
+            "type": "string"
+          },
+          "platforms": {
+            "type": "object",
+            "properties": {
+              "data": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "number"
+                    },
+                    "attributes": {
+                      "type": "object",
+                      "properties": {}
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "title": {
+            "type": "string"
           }
         }
       },
@@ -16258,37 +16156,6 @@
                         "shortDescriptionMobile": {
                           "type": "string"
                         },
-                        "recomendedPlatforms": {
-                          "type": "object",
-                          "properties": {
-                            "id": {
-                              "type": "number"
-                            },
-                            "title": {
-                              "type": "string"
-                            },
-                            "platforms": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "array",
-                                  "items": {
-                                    "type": "object",
-                                    "properties": {
-                                      "id": {
-                                        "type": "number"
-                                      },
-                                      "attributes": {
-                                        "type": "object",
-                                        "properties": {}
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        },
                         "blocks": {
                           "type": "array",
                           "items": {
@@ -16681,40 +16548,6 @@
                                                   }
                                                 }
                                               }
-                                            }
-                                          }
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              },
-                              {
-                                "type": "object",
-                                "properties": {
-                                  "id": {
-                                    "type": "number"
-                                  },
-                                  "__component": {
-                                    "type": "string"
-                                  },
-                                  "title": {
-                                    "type": "string"
-                                  },
-                                  "platforms": {
-                                    "type": "object",
-                                    "properties": {
-                                      "data": {
-                                        "type": "array",
-                                        "items": {
-                                          "type": "object",
-                                          "properties": {
-                                            "id": {
-                                              "type": "number"
-                                            },
-                                            "attributes": {
-                                              "type": "object",
-                                              "properties": {}
                                             }
                                           }
                                         }
@@ -17279,6 +17112,40 @@
                                     ]
                                   }
                                 }
+                              },
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "id": {
+                                    "type": "number"
+                                  },
+                                  "__component": {
+                                    "type": "string"
+                                  },
+                                  "platforms": {
+                                    "type": "object",
+                                    "properties": {
+                                      "data": {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "object",
+                                          "properties": {
+                                            "id": {
+                                              "type": "number"
+                                            },
+                                            "attributes": {
+                                              "type": "object",
+                                              "properties": {}
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "title": {
+                                    "type": "string"
+                                  }
+                                }
                               }
                             ]
                           }
@@ -17444,6 +17311,9 @@
           "platformCard": {
             "$ref": "#/components/schemas/SharedTranslationContainerComponent"
           },
+          "recommendedCard": {
+            "$ref": "#/components/schemas/SharedRecommendedCardComponent"
+          },
           "locale": {
             "type": "string"
           }
@@ -17460,6 +17330,9 @@
             "properties": {
               "platformCard": {
                 "$ref": "#/components/schemas/SharedTranslationContainerComponent"
+              },
+              "recommendedCard": {
+                "$ref": "#/components/schemas/SharedRecommendedCardComponent"
               },
               "locale": {
                 "type": "string"
@@ -17587,6 +17460,9 @@
         "properties": {
           "platformCard": {
             "$ref": "#/components/schemas/SharedTranslationContainerComponent"
+          },
+          "recommendedCard": {
+            "$ref": "#/components/schemas/SharedRecommendedCardComponent"
           },
           "createdAt": {
             "type": "string",
@@ -17942,6 +17818,23 @@
             "type": "string"
           },
           "goToPlatformViewButton": {
+            "type": "string"
+          }
+        }
+      },
+      "SharedRecommendedCardComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "priceSlashLabel": {
+            "type": "string"
+          },
+          "descriptionUnderPriceLabel": {
+            "type": "string"
+          },
+          "foreignCurrencyDescriptionLabel": {
             "type": "string"
           }
         }

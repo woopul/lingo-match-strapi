@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_recommended_cards",
+  "info": {
+    "displayName": "recommendedCard"
+  },
+  "options": {},
+  "attributes": {
+    "priceSlashLabel": {
+      "type": "string"
+    },
+    "descriptionUnderPriceLabel": {
+      "type": "string"
+    },
+    "foreignCurrencyDescriptionLabel": {
+      "type": "string"
+    }
+  }
+}

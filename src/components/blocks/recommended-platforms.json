@@ -1,17 +1,17 @@
 {
-  "collectionName": "components_blocks_recommended_plarforms",
+  "collectionName": "components_blocks_recommended_platforms",
   "info": {
-    "displayName": "RecommendedPlarforms"
+    "displayName": "RecommendedPlatforms"
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "platforms": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::platform.platform"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }

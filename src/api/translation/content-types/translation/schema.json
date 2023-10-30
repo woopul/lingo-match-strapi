@@ -25,6 +25,17 @@
         }
       },
       "component": "shared.translation-container"
+    },
+    "recommendedCard": {
+      "displayName": "recommendedCard",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.recommended-card"
     }
   }
 }
