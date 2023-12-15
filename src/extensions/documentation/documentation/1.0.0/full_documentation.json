@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-10-30T17:31:49.924Z"
+    "x-generation-date": "2023-12-11T20:53:01.271Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -7305,34 +7305,6 @@
                                                 "__component": {
                                                   "type": "string"
                                                 },
-                                                "checkboxLabels": {
-                                                  "type": "array",
-                                                  "items": {
-                                                    "type": "object",
-                                                    "properties": {
-                                                      "id": {
-                                                        "type": "number"
-                                                      },
-                                                      "label": {
-                                                        "type": "string"
-                                                      },
-                                                      "checked": {
-                                                        "type": "boolean"
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            },
-                                            {
-                                              "type": "object",
-                                              "properties": {
-                                                "id": {
-                                                  "type": "number"
-                                                },
-                                                "__component": {
-                                                  "type": "string"
-                                                },
                                                 "columns": {
                                                   "type": "array",
                                                   "items": {
@@ -9989,34 +9961,6 @@
                                   "__component": {
                                     "type": "string"
                                   },
-                                  "checkboxLabels": {
-                                    "type": "array",
-                                    "items": {
-                                      "type": "object",
-                                      "properties": {
-                                        "id": {
-                                          "type": "number"
-                                        },
-                                        "label": {
-                                          "type": "string"
-                                        },
-                                        "checked": {
-                                          "type": "boolean"
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              },
-                              {
-                                "type": "object",
-                                "properties": {
-                                  "id": {
-                                    "type": "number"
-                                  },
-                                  "__component": {
-                                    "type": "string"
-                                  },
                                   "columns": {
                                     "type": "array",
                                     "items": {
@@ -12131,9 +12075,6 @@
             "items": {
               "anyOf": [
                 {
-                  "$ref": "#/components/schemas/BlocksCheckboxColumnComponent"
-                },
-                {
                   "$ref": "#/components/schemas/BlocksCheckboxColumnsComponent"
                 },
                 {
@@ -12277,9 +12218,6 @@
                 "type": "array",
                 "items": {
                   "anyOf": [
-                    {
-                      "$ref": "#/components/schemas/BlocksCheckboxColumnComponent"
-                    },
                     {
                       "$ref": "#/components/schemas/BlocksCheckboxColumnsComponent"
                     },
@@ -13567,34 +13505,6 @@
                                                 "__component": {
                                                   "type": "string"
                                                 },
-                                                "checkboxLabels": {
-                                                  "type": "array",
-                                                  "items": {
-                                                    "type": "object",
-                                                    "properties": {
-                                                      "id": {
-                                                        "type": "number"
-                                                      },
-                                                      "label": {
-                                                        "type": "string"
-                                                      },
-                                                      "checked": {
-                                                        "type": "boolean"
-                                                      }
-                                                    }
-                                                  }
-                                                }
-                                              }
-                                            },
-                                            {
-                                              "type": "object",
-                                              "properties": {
-                                                "id": {
-                                                  "type": "number"
-                                                },
-                                                "__component": {
-                                                  "type": "string"
-                                                },
                                                 "columns": {
                                                   "type": "array",
                                                   "items": {
@@ -14732,9 +14642,6 @@
             "type": "array",
             "items": {
               "anyOf": [
-                {
-                  "$ref": "#/components/schemas/BlocksCheckboxColumnComponent"
-                },
                 {
                   "$ref": "#/components/schemas/BlocksCheckboxColumnsComponent"
                 },
@@ -16160,34 +16067,6 @@
                           "type": "array",
                           "items": {
                             "anyOf": [
-                              {
-                                "type": "object",
-                                "properties": {
-                                  "id": {
-                                    "type": "number"
-                                  },
-                                  "__component": {
-                                    "type": "string"
-                                  },
-                                  "checkboxLabels": {
-                                    "type": "array",
-                                    "items": {
-                                      "type": "object",
-                                      "properties": {
-                                        "id": {
-                                          "type": "number"
-                                        },
-                                        "label": {
-                                          "type": "string"
-                                        },
-                                        "checked": {
-                                          "type": "boolean"
-                                        }
-                                      }
-                                    }
-                                  }
-                                }
-                              },
                               {
                                 "type": "object",
                                 "properties": {

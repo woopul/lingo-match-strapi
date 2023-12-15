@@ -144,7 +144,6 @@
       },
       "type": "dynamiczone",
       "components": [
-        "blocks.checkbox-column",
         "blocks.checkbox-columns",
         "blocks.header",
         "blocks.images-container",
