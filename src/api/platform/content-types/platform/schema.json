@@ -158,6 +158,24 @@
         "shared.title",
         "blocks.recommended-platforms"
       ]
+    },
+    "recomendedPlatforms": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "blocks.recommended-platforms"
+    },
+    "detailedDescription": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
     }
   }
 }

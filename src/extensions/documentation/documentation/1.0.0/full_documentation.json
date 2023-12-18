@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-12-11T20:53:01.271Z"
+    "x-generation-date": "2023-12-18T21:34:21.184Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -8258,6 +8258,40 @@
                                           ]
                                         }
                                       },
+                                      "recomendedPlatforms": {
+                                        "type": "object",
+                                        "properties": {
+                                          "id": {
+                                            "type": "number"
+                                          },
+                                          "platforms": {
+                                            "type": "object",
+                                            "properties": {
+                                              "data": {
+                                                "type": "array",
+                                                "items": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "attributes": {
+                                                      "type": "object",
+                                                      "properties": {}
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "title": {
+                                            "type": "string"
+                                          }
+                                        }
+                                      },
+                                      "detailedDescription": {
+                                        "type": "string"
+                                      },
                                       "createdAt": {
                                         "type": "string",
                                         "format": "date-time"
@@ -10914,6 +10948,40 @@
                             ]
                           }
                         },
+                        "recomendedPlatforms": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "number"
+                            },
+                            "platforms": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "attributes": {
+                                        "type": "object",
+                                        "properties": {}
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "title": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "detailedDescription": {
+                          "type": "string"
+                        },
                         "createdAt": {
                           "type": "string",
                           "format": "date-time"
@@ -12116,6 +12184,12 @@
               ]
             }
           },
+          "recomendedPlatforms": {
+            "$ref": "#/components/schemas/BlocksRecommendedPlatformsComponent"
+          },
+          "detailedDescription": {
+            "type": "string"
+          },
           "locale": {
             "type": "string"
           }
@@ -12259,6 +12333,12 @@
                     }
                   ]
                 }
+              },
+              "recomendedPlatforms": {
+                "$ref": "#/components/schemas/BlocksRecommendedPlatformsComponent"
+              },
+              "detailedDescription": {
+                "type": "string"
               },
               "locale": {
                 "type": "string"
@@ -14458,6 +14538,40 @@
                                           ]
                                         }
                                       },
+                                      "recomendedPlatforms": {
+                                        "type": "object",
+                                        "properties": {
+                                          "id": {
+                                            "type": "number"
+                                          },
+                                          "platforms": {
+                                            "type": "object",
+                                            "properties": {
+                                              "data": {
+                                                "type": "array",
+                                                "items": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "attributes": {
+                                                      "type": "object",
+                                                      "properties": {}
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "title": {
+                                            "type": "string"
+                                          }
+                                        }
+                                      },
+                                      "detailedDescription": {
+                                        "type": "string"
+                                      },
                                       "createdAt": {
                                         "type": "string",
                                         "format": "date-time"
@@ -14684,6 +14798,12 @@
               ]
             }
           },
+          "recomendedPlatforms": {
+            "$ref": "#/components/schemas/BlocksRecommendedPlatformsComponent"
+          },
+          "detailedDescription": {
+            "type": "string"
+          },
           "createdAt": {
             "type": "string",
             "format": "date-time"
@@ -14818,9 +14938,6 @@
         "properties": {
           "id": {
             "type": "number"
-          },
-          "__component": {
-            "type": "string"
           },
           "platforms": {
             "type": "object",
@@ -17028,6 +17145,40 @@
                               }
                             ]
                           }
+                        },
+                        "recomendedPlatforms": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "number"
+                            },
+                            "platforms": {
+                              "type": "object",
+                              "properties": {
+                                "data": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "attributes": {
+                                        "type": "object",
+                                        "properties": {}
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "title": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "detailedDescription": {
+                          "type": "string"
                         },
                         "createdAt": {
                           "type": "string",
