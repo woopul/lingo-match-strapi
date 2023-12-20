@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-12-18T21:34:21.184Z"
+    "x-generation-date": "2023-12-20T21:14:03.452Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -8258,7 +8258,10 @@
                                           ]
                                         }
                                       },
-                                      "recomendedPlatforms": {
+                                      "detailedDescription": {
+                                        "type": "string"
+                                      },
+                                      "recommendedPlatforms": {
                                         "type": "object",
                                         "properties": {
                                           "id": {
@@ -8288,9 +8291,6 @@
                                             "type": "string"
                                           }
                                         }
-                                      },
-                                      "detailedDescription": {
-                                        "type": "string"
                                       },
                                       "createdAt": {
                                         "type": "string",
@@ -10948,7 +10948,10 @@
                             ]
                           }
                         },
-                        "recomendedPlatforms": {
+                        "detailedDescription": {
+                          "type": "string"
+                        },
+                        "recommendedPlatforms": {
                           "type": "object",
                           "properties": {
                             "id": {
@@ -10978,9 +10981,6 @@
                               "type": "string"
                             }
                           }
-                        },
-                        "detailedDescription": {
-                          "type": "string"
                         },
                         "createdAt": {
                           "type": "string",
@@ -12184,11 +12184,11 @@
               ]
             }
           },
-          "recomendedPlatforms": {
-            "$ref": "#/components/schemas/BlocksRecommendedPlatformsComponent"
-          },
           "detailedDescription": {
             "type": "string"
+          },
+          "recommendedPlatforms": {
+            "$ref": "#/components/schemas/BlocksRecommendedPlatformsComponent"
           },
           "locale": {
             "type": "string"
@@ -12334,11 +12334,11 @@
                   ]
                 }
               },
-              "recomendedPlatforms": {
-                "$ref": "#/components/schemas/BlocksRecommendedPlatformsComponent"
-              },
               "detailedDescription": {
                 "type": "string"
+              },
+              "recommendedPlatforms": {
+                "$ref": "#/components/schemas/BlocksRecommendedPlatformsComponent"
               },
               "locale": {
                 "type": "string"
@@ -14538,7 +14538,10 @@
                                           ]
                                         }
                                       },
-                                      "recomendedPlatforms": {
+                                      "detailedDescription": {
+                                        "type": "string"
+                                      },
+                                      "recommendedPlatforms": {
                                         "type": "object",
                                         "properties": {
                                           "id": {
@@ -14568,9 +14571,6 @@
                                             "type": "string"
                                           }
                                         }
-                                      },
-                                      "detailedDescription": {
-                                        "type": "string"
                                       },
                                       "createdAt": {
                                         "type": "string",
@@ -14798,11 +14798,11 @@
               ]
             }
           },
-          "recomendedPlatforms": {
-            "$ref": "#/components/schemas/BlocksRecommendedPlatformsComponent"
-          },
           "detailedDescription": {
             "type": "string"
+          },
+          "recommendedPlatforms": {
+            "$ref": "#/components/schemas/BlocksRecommendedPlatformsComponent"
           },
           "createdAt": {
             "type": "string",
@@ -17146,7 +17146,10 @@
                             ]
                           }
                         },
-                        "recomendedPlatforms": {
+                        "detailedDescription": {
+                          "type": "string"
+                        },
+                        "recommendedPlatforms": {
                           "type": "object",
                           "properties": {
                             "id": {
@@ -17176,9 +17179,6 @@
                               "type": "string"
                             }
                           }
-                        },
-                        "detailedDescription": {
-                          "type": "string"
                         },
                         "createdAt": {
                           "type": "string",

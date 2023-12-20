@@ -159,7 +159,15 @@
         "blocks.recommended-platforms"
       ]
     },
-    "recomendedPlatforms": {
+    "detailedDescription": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "recommendedPlatforms": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -168,14 +176,6 @@
         }
       },
       "component": "blocks.recommended-platforms"
-    },
-    "detailedDescription": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "text"
     }
   }
 }
