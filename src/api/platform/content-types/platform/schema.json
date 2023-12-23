@@ -145,7 +145,6 @@
       "type": "dynamiczone",
       "components": [
         "blocks.checkbox-columns",
-        "blocks.header",
         "blocks.images-container",
         "blocks.section-with-title",
         "blocks.spacing",
