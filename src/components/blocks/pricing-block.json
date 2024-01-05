@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_pricing_blocks",
+  "info": {
+    "displayName": "pricingBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "linkCTA": {
+      "type": "string"
+    },
+    "subscriptionType": {
+      "displayName": "SubscribtionType",
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.subscribtion-type"
+    }
+  }
+}

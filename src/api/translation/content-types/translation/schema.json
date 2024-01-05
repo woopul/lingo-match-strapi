@@ -36,6 +36,22 @@
         }
       },
       "component": "shared.recommended-card"
+    },
+    "navigateToCTALabel": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "priceLabel": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }

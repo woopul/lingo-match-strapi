@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_blocks_subscribtion_types",
+  "info": {
+    "displayName": "SubscribtionType",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "priceBeforeDiscountAsNumber": {
+      "type": "decimal"
+    },
+    "priceAsNumber": {
+      "type": "decimal"
+    },
+    "subscription": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::subscription.subscription"
+    }
+  }
+}

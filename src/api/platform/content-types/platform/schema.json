@@ -175,6 +175,17 @@
         }
       },
       "component": "blocks.recommended-platforms"
+    },
+    "pricingBlock": {
+      "displayName": "pricingBlock",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "blocks.pricing-block"
     }
   }
 }
