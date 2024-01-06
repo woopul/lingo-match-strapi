@@ -4,7 +4,7 @@
   "info": {
     "singularName": "translation",
     "pluralName": "translations",
-    "displayName": "Translation",
+    "displayName": "Translations",
     "description": ""
   },
   "options": {
@@ -37,21 +37,16 @@
       },
       "component": "shared.recommended-card"
     },
-    "navigateToCTALabel": {
+    "pricingBlock": {
+      "displayName": "pricingBlock",
+      "type": "component",
+      "repeatable": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string"
-    },
-    "priceLabel": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
+      "component": "shared.pricing-block"
     }
   }
 }

@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-01-05T20:32:58.442Z"
+    "x-generation-date": "2024-01-06T21:32:39.603Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -17478,11 +17478,8 @@
           "recommendedCard": {
             "$ref": "#/components/schemas/SharedRecommendedCardComponent"
           },
-          "navigateToCTALabel": {
-            "type": "string"
-          },
-          "priceLabel": {
-            "type": "string"
+          "pricingBlock": {
+            "$ref": "#/components/schemas/SharedPricingBlockComponent"
           },
           "locale": {
             "type": "string"
@@ -17504,11 +17501,8 @@
               "recommendedCard": {
                 "$ref": "#/components/schemas/SharedRecommendedCardComponent"
               },
-              "navigateToCTALabel": {
-                "type": "string"
-              },
-              "priceLabel": {
-                "type": "string"
+              "pricingBlock": {
+                "$ref": "#/components/schemas/SharedPricingBlockComponent"
               },
               "locale": {
                 "type": "string"
@@ -17640,11 +17634,8 @@
           "recommendedCard": {
             "$ref": "#/components/schemas/SharedRecommendedCardComponent"
           },
-          "navigateToCTALabel": {
-            "type": "string"
-          },
-          "priceLabel": {
-            "type": "string"
+          "pricingBlock": {
+            "$ref": "#/components/schemas/SharedPricingBlockComponent"
           },
           "createdAt": {
             "type": "string",
@@ -18017,6 +18008,26 @@
             "type": "string"
           },
           "foreignCurrencyDescriptionLabel": {
+            "type": "string"
+          }
+        }
+      },
+      "SharedPricingBlockComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "priceLabel": {
+            "type": "string"
+          },
+          "pricePerMonthLabel": {
+            "type": "string"
+          },
+          "navigateToCTAButtonLabel": {
+            "type": "string"
+          },
+          "priceForShortLabel": {
             "type": "string"
           }
         }

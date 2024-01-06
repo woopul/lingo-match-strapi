@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_pricing_blocks",
+  "info": {
+    "displayName": "pricingBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "priceLabel": {
+      "type": "string"
+    },
+    "pricePerMonthLabel": {
+      "type": "string"
+    },
+    "navigateToCTAButtonLabel": {
+      "type": "string"
+    },
+    "priceForShortLabel": {
+      "type": "string"
+    }
+  }
+}
