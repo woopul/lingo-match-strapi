@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-01-06T21:32:39.603Z"
+    "x-generation-date": "2024-01-06T22:09:43.313Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -8213,6 +8213,9 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "freeRegistration": {
+                                            "type": "boolean"
                                           }
                                         }
                                       },
@@ -10824,6 +10827,9 @@
                                   }
                                 }
                               }
+                            },
+                            "freeRegistration": {
+                              "type": "boolean"
                             }
                           }
                         },
@@ -14346,6 +14352,9 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "freeRegistration": {
+                                            "type": "boolean"
                                           }
                                         }
                                       },
@@ -14785,6 +14794,9 @@
                 }
               }
             }
+          },
+          "freeRegistration": {
+            "type": "boolean"
           }
         }
       },
@@ -17311,6 +17323,9 @@
                                   }
                                 }
                               }
+                            },
+                            "freeRegistration": {
+                              "type": "boolean"
                             }
                           }
                         },
@@ -18028,6 +18043,12 @@
             "type": "string"
           },
           "priceForShortLabel": {
+            "type": "string"
+          },
+          "freeRegistrationTitle": {
+            "type": "string"
+          },
+          "freeRegistrationAcccent": {
             "type": "string"
           }
         }

@@ -17,6 +17,12 @@
     },
     "priceForShortLabel": {
       "type": "string"
+    },
+    "freeRegistrationTitle": {
+      "type": "string"
+    },
+    "freeRegistrationAcccent": {
+      "type": "string"
     }
   }
 }
