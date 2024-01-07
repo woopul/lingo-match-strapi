@@ -42,11 +42,13 @@
       },
       "type": "dynamiczone",
       "components": [
-        "shared.grama",
         "shared.hero",
         "shared.icon-link",
         "shared.link",
-        "blocks.images-container"
+        "blocks.images-container",
+        "blocks.checkbox-columns",
+        "blocks.spacing",
+        "blocks.section-with-title"
       ]
     }
   }
