@@ -186,6 +186,16 @@
         }
       },
       "component": "blocks.pricing-block"
+    },
+    "platformList": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "blocks.aside-sticky-links-block"
     }
   }
 }
