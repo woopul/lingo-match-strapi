@@ -10,7 +10,9 @@
       "type": "decimal"
     },
     "priceAsNumber": {
-      "type": "decimal"
+      "type": "decimal",
+      "required": true,
+      "default": 0
     },
     "subscription": {
       "type": "relation",
