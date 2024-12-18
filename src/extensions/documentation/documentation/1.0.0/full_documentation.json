@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2024-12-10T21:21:50.196Z"
+    "x-generation-date": "2024-12-18T01:07:15.522Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2023,30 +2023,33 @@
                                     "type": "string"
                                   },
                                   "columns": {
-                                    "type": "array",
-                                    "items": {
-                                      "type": "object",
-                                      "properties": {
-                                        "id": {
-                                          "type": "number"
-                                        },
-                                        "checkboxLabels": {
-                                          "type": "array",
-                                          "items": {
-                                            "type": "object",
-                                            "properties": {
-                                              "id": {
-                                                "type": "number"
-                                              },
-                                              "label": {
-                                                "type": "string"
-                                              },
-                                              "checked": {
-                                                "type": "boolean"
-                                              }
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "checkboxLabels": {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "object",
+                                          "properties": {
+                                            "id": {
+                                              "type": "number"
+                                            },
+                                            "label": {
+                                              "type": "string"
+                                            },
+                                            "checked": {
+                                              "type": "boolean"
                                             }
                                           }
                                         }
+                                      },
+                                      "alignVerticallyMobile": {
+                                        "type": "boolean"
+                                      },
+                                      "alignVerticallyDesktop": {
+                                        "type": "boolean"
                                       }
                                     }
                                   }
@@ -4544,30 +4547,33 @@
                                                   "type": "string"
                                                 },
                                                 "columns": {
-                                                  "type": "array",
-                                                  "items": {
-                                                    "type": "object",
-                                                    "properties": {
-                                                      "id": {
-                                                        "type": "number"
-                                                      },
-                                                      "checkboxLabels": {
-                                                        "type": "array",
-                                                        "items": {
-                                                          "type": "object",
-                                                          "properties": {
-                                                            "id": {
-                                                              "type": "number"
-                                                            },
-                                                            "label": {
-                                                              "type": "string"
-                                                            },
-                                                            "checked": {
-                                                              "type": "boolean"
-                                                            }
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "checkboxLabels": {
+                                                      "type": "array",
+                                                      "items": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                          "id": {
+                                                            "type": "number"
+                                                          },
+                                                          "label": {
+                                                            "type": "string"
+                                                          },
+                                                          "checked": {
+                                                            "type": "boolean"
                                                           }
                                                         }
                                                       }
+                                                    },
+                                                    "alignVerticallyMobile": {
+                                                      "type": "boolean"
+                                                    },
+                                                    "alignVerticallyDesktop": {
+                                                      "type": "boolean"
                                                     }
                                                   }
                                                 }
@@ -6876,6 +6882,12 @@
                 }
               }
             }
+          },
+          "alignVerticallyMobile": {
+            "type": "boolean"
+          },
+          "alignVerticallyDesktop": {
+            "type": "boolean"
           }
         }
       },
@@ -6889,10 +6901,7 @@
             "type": "string"
           },
           "columns": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/BlocksCheckboxColumnComponent"
-            }
+            "$ref": "#/components/schemas/BlocksCheckboxColumnComponent"
           }
         }
       },
@@ -7791,30 +7800,33 @@
                                                   "type": "string"
                                                 },
                                                 "columns": {
-                                                  "type": "array",
-                                                  "items": {
-                                                    "type": "object",
-                                                    "properties": {
-                                                      "id": {
-                                                        "type": "number"
-                                                      },
-                                                      "checkboxLabels": {
-                                                        "type": "array",
-                                                        "items": {
-                                                          "type": "object",
-                                                          "properties": {
-                                                            "id": {
-                                                              "type": "number"
-                                                            },
-                                                            "label": {
-                                                              "type": "string"
-                                                            },
-                                                            "checked": {
-                                                              "type": "boolean"
-                                                            }
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "checkboxLabels": {
+                                                      "type": "array",
+                                                      "items": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                          "id": {
+                                                            "type": "number"
+                                                          },
+                                                          "label": {
+                                                            "type": "string"
+                                                          },
+                                                          "checked": {
+                                                            "type": "boolean"
                                                           }
                                                         }
                                                       }
+                                                    },
+                                                    "alignVerticallyMobile": {
+                                                      "type": "boolean"
+                                                    },
+                                                    "alignVerticallyDesktop": {
+                                                      "type": "boolean"
                                                     }
                                                   }
                                                 }
@@ -10405,30 +10417,33 @@
                                     "type": "string"
                                   },
                                   "columns": {
-                                    "type": "array",
-                                    "items": {
-                                      "type": "object",
-                                      "properties": {
-                                        "id": {
-                                          "type": "number"
-                                        },
-                                        "checkboxLabels": {
-                                          "type": "array",
-                                          "items": {
-                                            "type": "object",
-                                            "properties": {
-                                              "id": {
-                                                "type": "number"
-                                              },
-                                              "label": {
-                                                "type": "string"
-                                              },
-                                              "checked": {
-                                                "type": "boolean"
-                                              }
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "checkboxLabels": {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "object",
+                                          "properties": {
+                                            "id": {
+                                              "type": "number"
+                                            },
+                                            "label": {
+                                              "type": "string"
+                                            },
+                                            "checked": {
+                                              "type": "boolean"
                                             }
                                           }
                                         }
+                                      },
+                                      "alignVerticallyMobile": {
+                                        "type": "boolean"
+                                      },
+                                      "alignVerticallyDesktop": {
+                                        "type": "boolean"
                                       }
                                     }
                                   }
@@ -13948,30 +13963,33 @@
                                                   "type": "string"
                                                 },
                                                 "columns": {
-                                                  "type": "array",
-                                                  "items": {
-                                                    "type": "object",
-                                                    "properties": {
-                                                      "id": {
-                                                        "type": "number"
-                                                      },
-                                                      "checkboxLabels": {
-                                                        "type": "array",
-                                                        "items": {
-                                                          "type": "object",
-                                                          "properties": {
-                                                            "id": {
-                                                              "type": "number"
-                                                            },
-                                                            "label": {
-                                                              "type": "string"
-                                                            },
-                                                            "checked": {
-                                                              "type": "boolean"
-                                                            }
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "number"
+                                                    },
+                                                    "checkboxLabels": {
+                                                      "type": "array",
+                                                      "items": {
+                                                        "type": "object",
+                                                        "properties": {
+                                                          "id": {
+                                                            "type": "number"
+                                                          },
+                                                          "label": {
+                                                            "type": "string"
+                                                          },
+                                                          "checked": {
+                                                            "type": "boolean"
                                                           }
                                                         }
                                                       }
+                                                    },
+                                                    "alignVerticallyMobile": {
+                                                      "type": "boolean"
+                                                    },
+                                                    "alignVerticallyDesktop": {
+                                                      "type": "boolean"
                                                     }
                                                   }
                                                 }
@@ -16919,30 +16937,33 @@
                                     "type": "string"
                                   },
                                   "columns": {
-                                    "type": "array",
-                                    "items": {
-                                      "type": "object",
-                                      "properties": {
-                                        "id": {
-                                          "type": "number"
-                                        },
-                                        "checkboxLabels": {
-                                          "type": "array",
-                                          "items": {
-                                            "type": "object",
-                                            "properties": {
-                                              "id": {
-                                                "type": "number"
-                                              },
-                                              "label": {
-                                                "type": "string"
-                                              },
-                                              "checked": {
-                                                "type": "boolean"
-                                              }
+                                    "type": "object",
+                                    "properties": {
+                                      "id": {
+                                        "type": "number"
+                                      },
+                                      "checkboxLabels": {
+                                        "type": "array",
+                                        "items": {
+                                          "type": "object",
+                                          "properties": {
+                                            "id": {
+                                              "type": "number"
+                                            },
+                                            "label": {
+                                              "type": "string"
+                                            },
+                                            "checked": {
+                                              "type": "boolean"
                                             }
                                           }
                                         }
+                                      },
+                                      "alignVerticallyMobile": {
+                                        "type": "boolean"
+                                      },
+                                      "alignVerticallyDesktop": {
+                                        "type": "boolean"
                                       }
                                     }
                                   }
